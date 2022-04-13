@@ -14,6 +14,41 @@ This introduction will be then put into the context with River, a go-to Python l
 
 # Outline including a short summary of every section
 
+The outline of the tutorial, which expands along the period of **3 hours** (half-day), is as follows:
+
+* Introduction to data stream (online) machine learning (approximately **45 minutes**)
+
+  - What is online machine learning, and why do we need online machine learning?
+  - Differences, advantages and disadvantages of online machine learning compared to batch/traditional machine learning.
+  - Introduction to River, a hands-on Python library for machine learning merged from `Creme` and `scikit-multiflow`.
+  - Practical applications of `River` in classification, concept drifts, implementation of estimators, etc. and displaying real-time results using `holoviews`.
+
+* Online clustering algorithms and evaluation metrics (approximately **1 hour and 30 minutes**):
+
+  - A literature survey on existing clustering algorithms, the general concepts and their evolution.
+  - Primary differences between clustering and classification evaluation metrics, which might lead to wrong interpretation of final results.
+  - Real-world applications of online clustering algorithms and evaluation metrics in practical problems.
+
+* Use cases and benchmarking (approximately **45 minutes**):
+
+  - Comparison between online and traditional/batch clustering algorithms.
+  - Motivation, setting and system requirements for conducting benchmarking.
+  - Tutorial on benchmarking using the `River` package and the associated available `git` repository and `terminal`.
+
+## Introduction to data stream (online) machine learning
+
+This part is intended to provide the motivation and necessity of online stream learning. As a matter of fact, traditional machine learning methods can not deal with an extremely large amount of data with limited resources and time constrains, which means that there is an urgent need for specific data stream machine learning methods. Besides providing insights on advantages and disadvantages of online machine learning, we will also provide an introduction to `River`, a Python library aimed to become a go-to toolkit for this purpose.
+
+## A literature survey on online clustering algorithms and metrics
+
+This part will first start with an extensive survey on online clustering algorithms. First, we will start with the development from the first algorithms (`BIRCH`/`CluStream`), then to the evolution based on different approaches. These approaches include either distance-based, grid-based, model-based or projected, two-phase, type of time windows (damped, sliding, landmark or pyramidal), or the use of medoids/centroids.
+
+Moreover, one aspect of online clustering algorithms that are usually neglected are the usages of validation metrics. Usually, classification metrics are used as a replacement, which may lead to the wrong interpretation of final results and the choice of hyperparameters. As such, in this part, we will also focus on the construction of these metrics, and also how to apply them in analyzing clustering algorithms' performances when put into practice.
+
+## Practical applications and benchmarking using the clustering module of River
+
+The final part serves as a practical tutorial on the usage of River and the associated clustering module in real-life problems. First, online clustering algorithms will be put into comparison with traditional/batch methods in terms of performance, memory and time usage to prove that although online methods takes up less resources, they have the ability to obtain a similar accuracy. Then, the setting, system requirement and method of benchmarking and choosing the appropriate hyperparameter sets are discussed.
+
 # Specific goals and objectives
 
 The specific goal of this tutorial is to act as a literature survey and an introduction to online clustering algorithms, metrics and their recent advances through `River` - an existing Python online machine learning library. Through that, it also provides all necessary tools and techniques, as a framework, to apply online clustering algorithms in real-world scenarios and to develop practical applications in line with its theoretical background.
