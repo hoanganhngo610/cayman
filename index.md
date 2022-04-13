@@ -4,9 +4,6 @@ title: "Online clustering: algorithms, evaluation, metrics, aplication and bench
 description: Tutorial presented at the 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2022.
 ---
 
-
-
-
 # Abstract
 
 Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods.
@@ -16,6 +13,16 @@ This tutorial serves, first, as a survey on online machine learning and, in part
 This introduction will be then put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. We propose applications and settings for benchmarking, using real-world problems and datasets.
 
 # Outline including a short summary of every section
+
+# Specific goals and objectives
+
+The specific goal of this tutorial is to act as a literature survey and an introduction to online clustering algorithms, metrics and their recent advances through `River` - an existing Python online machine learning library. Through that, it also provides all necessary tools and techniques, as a framework, to apply online clustering algorithms in real-world scenarios and to develop practical applications in line with its theoretical background.
+
+* Present an introduction on online machine learning and its advantages compared to traditional/batch machine learning.
+* Provide core theoretical background to understand how clustering algorithms and methods are designed.
+* Introduce `River` as a new, go-to library/framework for building online machine learning algorithms.
+* Give practical examples and insights on how to use River in real-life applications and benchmarking.
+* Discuss the past, present, future challenges and future challenges and how researchers have been tackling those in their algorithms' development.
 
 # Expected background of the audience
 
