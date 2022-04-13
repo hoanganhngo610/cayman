@@ -1,6 +1,11 @@
 ---
 layout: default
+title: "Online clustering: algorithms, evaluation, metrics, aplication and benchmarking using River"
+description: Tutorial presented at the 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2022.
 ---
+
+
+
 
 # Abstract
 
@@ -11,7 +16,6 @@ This tutorial serves, first, as a survey on online machine learning and, in part
 This introduction will be then put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. We propose applications and settings for benchmarking, using real-world problems and datasets.
 
 # Outline including a short summary of every section
-
 
 # Expected background of the audience
 
