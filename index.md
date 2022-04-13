@@ -2,15 +2,24 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Abstract
 
-[Link to another page](./another-page.html).
+Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods.
 
-There should be whitespace between paragraphs.
+This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This introduction will be then put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. We propose applications and settings for benchmarking, using real-world problems and datasets.
+
+# Outline including a short summary of every section
+
+
+# Expected background of the audience
+
+The target audience of this tutorial include any researchers and practitioners with interests on machine learning for big data/evolving data streams and/or IoT applications. There will be no special requirement on previous experience on data stream learning; however, either experience with traditional machine learning concepts and frameworks (`scikit-learn`, `keras`, `pytorch`, etc.) or previous interactions with `scikit-multiflow`, `Creme` or `River` (the merge of the two) is a plus.
 
 # Header 1
+
+[Link to another page](./another-page.html).
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
