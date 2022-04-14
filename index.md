@@ -63,6 +63,10 @@ The specific goal of this tutorial is to act as a literature survey and an intro
 
 The target audience of this tutorial include any researchers and practitioners with interests on machine learning for big data/evolving data streams and/or IoT applications. There will be no special requirement on previous experience on data stream learning; however, either experience with traditional machine learning concepts and frameworks (`scikit-learn`, `keras`, `pytorch`, etc.) or previous interactions with `scikit-multiflow`, `Creme` or `River` (the merge of the two) is a plus.
 
+# Related materials
+
+For all related materials, including presentation slides, demos, source code, related papers and any other piece of information, please visit [this page](./related-materials.html).
+
 # References
 
 1. Jacob Montiel, Max Halford, Saulo Martiello Mastelini, Geoffrey Bolmier, Raphael Sourty, Robin Vaysse, Adil Zouitine, Heitor Murilo Gomes, Jesse Read, Talel Abdessalem, and Albert Bifet. 2021. River: machine learning for streaming data in Python. *Journal of Machine Learning Research* 22 (April 2021), 1–8. [http://jmlr.org/papers/v22/20-1380.html](http://jmlr.org/papers/v22/20-1380.html)
@@ -99,9 +103,8 @@ The target audience of this tutorial include any researchers and practitioners w
 
 1. Yixin Chen and Li Tu. 2007. Density-based clustering for real-time stream data. In *Proceedings of the 13th ACM SIGKKDD internaional conference on Knowledge discovery and data mining (KDD ’07)*. Association for Computing Machinery, New York, NY, USA, 133–142. [https://doi.org/10.1145/1281192.1281210](https://doi.org/10.1145/1281192.1281210)
 
-# Header 1
 
-[Link to another page](./another-page.html).
+
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
