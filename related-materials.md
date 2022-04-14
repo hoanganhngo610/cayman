@@ -12,7 +12,7 @@ The clustering module of `River` is currently the most complete among all open-s
 
 The currentl available clustering algorithms include
 
-* Online KMeans
+* Incremental KMeans
 * CluStream
 * DenStream
 * DBSTREAM
@@ -43,7 +43,7 @@ and
 
 ```bibtex
 @software{creme,
-  title = {{creme}, a {P}ython library for online machine learning},
+  title = {creme, a Python library for online machine learning},
   author = {Halford, Max and Bolmier, Geoffrey and Sourty, Raphael and Vaysse, Robin and Zouitine, Adil},
   url = {https://github.com/MaxHalford/creme},
   version = {0.6.1},
