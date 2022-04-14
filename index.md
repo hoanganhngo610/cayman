@@ -33,7 +33,7 @@ Website: [https://jacobmontiel.github.io/](https://jacobmontiel.github.io/)
 
 <img src="presenter-pics/hoang-anh.ngo.jpg" alt="drawing" width="220" style="border-radius:60%"/>{: .image-left } 
 
-**Hoang-Anh Ngo** is currently a Research Assistant at Data, Intelligence and Graph (DIG), LCTI, Télécom Paris. He is also a core developer and maintainer of River, the machine learning library in Python for data streams. His research interests lies in the field of machine learning for evolving data stream, particularly in online clustering and classification algorithms. Previously, he joined the team of IT Specialists in COVID-19 task force, formed by the Ministry of Health of Vietnam as a Epidemiological Modelling Unit head.
+**Hoang-Anh Ngo** is currently a Research Assistant at Data, Intelligence and Graph (DIG), LCTI, Télécom Paris, Institut Polytechnique de Paris, France. He is also a core developer and maintainer of River, the machine learning library in Python for data streams. His research interests lies in the field of machine learning for evolving data stream, particularly in online clustering and classification algorithms. Previously, he joined the team of IT Specialists in COVID-19 task force, formed by the Ministry of Health of Vietnam as a Epidemiological Modelling Unit head.
 
 <br clear="left"/>
 
