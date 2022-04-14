@@ -63,6 +63,42 @@ The specific goal of this tutorial is to act as a literature survey and an intro
 
 The target audience of this tutorial include any researchers and practitioners with interests on machine learning for big data/evolving data streams and/or IoT applications. There will be no special requirement on previous experience on data stream learning; however, either experience with traditional machine learning concepts and frameworks (`scikit-learn`, `keras`, `pytorch`, etc.) or previous interactions with `scikit-multiflow`, `Creme` or `River` (the merge of the two) is a plus.
 
+# References
+
+1. Jacob Montiel, Max Halford, Saulo Martiello Mastelini, Geoffrey Bolmier, Raphael Sourty, Robin Vaysse, Adil Zouitine, Heitor Murilo Gomes, Jesse Read, Talel Abdessalem, and Albert Bifet. 2021. River: machine learning for streaming data in Python. *Journal of Machine Learning Research* 22 (April 2021), 1–8. [http://jmlr.org/papers/v22/20-1380.html](http://jmlr.org/papers/v22/20-1380.html)
+
+1. Matthias Carnein and Heike Trautmann. 2019. Optimizing Data Stream Representation: An Extensive Survey on Stream Clustering Algorithms. *Business & Information Systems Engineering* 61 (2019), 277–297. [https://doi.org/10.1007/s12599-019-00576-5](https://doi.org/10.1007/s12599-019-00576-5)
+
+1. Mohammed Ghesmoune, Mustapha Lebbah, and Hanene Azzag. 2016. State-of-the-art on clustering data streams. *Big Data Analytics* 1, 1 (2016), 13. [https://doi.org/10.1186/s41044-016-0011-3](https://doi.org/10.1186/s41044-016-0011-3)
+
+1. Amineh Amini, Teh Ying Wah, and Hadi Saboohi. 2014. On Density-Based Data Streams Clustering Algorithms: A Survey. *Journal of Computer Science and Technology* 29, 1 (Jan. 2014), 116–141. [https://doi.org/10.1007/s11390-013-1416-3](https://doi.org/10.1007/s11390-013-1416-3)
+
+1. Ali Javed, Byung Suk Lee, and Donna M. Rizzo. 2020. A benchmark study on time series clustering. *Machine Learning with Applications* 1 (Sept. 2020), 100001. [https://doi.org/10.1016/j.mlwa.2020.100001](https://doi.org/10.1016/j.mlwa.2020.100001)
+
+1. Matthias Carnein, Assenmacher Dennis, and Heike Trautmann. 2017. An Empirical Comparison of Stream Clustering Algorithms. In *Proceedings of the Computing Frontiers Conference (CF’17)*. Association for Computing Machinery, New York, NY, USA, 361––366. [https://doi.org/10.1145/3075564.3078887](https://doi.org/10.1145/3075564.3078887)
+
+1. Leonardo Enzo Brito Da Silva, Niklas Max Melton, and Donald C. Wunsch. 2020. Incremental Cluster Validity Indices for Online Learning of Hard Partitions: Extensions and Comparative Study. *IEEE Access* 8 (Jan. 2020), 22025–22047. [https://doi.org/10.1109/ACCESS.2020.2969849](https://doi.org/10.1109/ACCESS.2020.2969849)
+
+1. Albert Bifet, Ricard Gavaldà, Geoff Holmes, and Bernhard Pfahringer. 2018. *Machine Learning for Data Streams: with Practical Examples in MOA*. The MIT Press, Cambridge, MA, USA. [https://doi.org/10.7551/mitpress/10654.001.0001](https://doi.org/10.7551/mitpress/10654.001.0001)
+
+1. Max Halford, Geoffrey Bolmier, Raphael Sourty, Robin Vaysse, and Adil Zouitine. 2019. creme, a Python library for online machine learning. [https://github.com/MaxHalford/creme](https://github.com/MaxHalford/creme)
+
+1. Jacob Montiel, Jesse Read, Albert Bifet, and Talel Abdessalem. 2018. Scikit-Multiflow: A Multi-output Streaming Framework. *Journal of Machine Learning Research* 19, 72 (2018), 1–5. [http://jmlr.org/papers/v19/18-251.html](http://jmlr.org/papers/v19/18-251.html)
+
+1. Stratos Mansalis, Eirini Ntoutsi, Nikos Pelekis, and Yannis Theodoridis. 2018. An evaluation of data stream clustering algorithm. *Statistical Analysis and Data Mining: The ASA Data Science Journal* 11 (2018), 167–187. [https://doi.org/10.1002/sam.11380](https://doi.org/10.1002/sam.11380)
+
+1. Charu C. Aggarwal, Jiawei Han, Jianyong Wang, and Phillip S. Yu. 2003. A Framework for Clustering Evolving Data Streams. *In Proceedings of the 29th International Conference on Very Large Data Bases - Volume 29* (Berlin, Germany) *(VLDB ’03)*. VLDB Endowment, Berlin, Germany, 81–92. [https://doi.org/10.5555/1315451.1315460](https://doi.org/10.5555/1315451.1315460)
+
+1. Feng Cao, Martin Estert, Weining Qian, and Aoying Zhou. 2006. Density-Based Clustering over an Evolving Data Stream with Noise. In *Proceedings of the 2006 SIAM International Conference on Data Mining (SDM)*. Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, USA, 328–339. [https://doi.org/10.1137/1.9781611972764.29](https://doi.org/10.1137/1.9781611972764.29)
+
+1. Marcel R. Ackermann, Marcus Martens, Christoph Raupach, Kamil Swierkot, Christiane Lammersen, and Christian Sohler. 2012. StreamKM++: A Clustering Algorithm for Data Streams. *ACM J. Exp. Algorithmics* 17, Article 2.4 (May 2012), 30 pages. [https://doi.org/10.1145/2133803.2184450](https://doi.org/10.1145/2133803.2184450)
+
+1. L. O’Callaghan, N. Mishra, A. Meyerson, S. Guha, and R. Motwani. 2002. Streaming-data algorithms for high-quality clustering. In *Proceedings 18th International Conference on Data Engineering*. IEEE, San Jose, CA, USA, 685–694. [https://doi.org/10.1109/ICDE.2002.994785](https://doi.org/10.1109/ICDE.2002.994785)
+
+1. Michael Hashler and Matthew Bolaños. 2016. Clustering Data Streams Based on Shared Density between Micro-Clusters. *IEEE Transactions on Knowledge and Data Engineering* 28, 6 (2016), 1449–1461. [https://doi.org/10.1109/TKDE.2016.2522412](https://doi.org/10.1109/TKDE.2016.2522412)
+
+1. Yixin Chen and Li Tu. 2007. Density-based clustering for real-time stream data. In *Proceedings of the 13th ACM SIGKKDD internaional conference on Knowledge discovery and data mining (KDD ’07)*. Association for Computing Machinery, New York, NY, USA, 133–142. [https://doi.org/10.1145/1281192.1281210](https://doi.org/10.1145/1281192.1281210)
+
 # Header 1
 
 [Link to another page](./another-page.html).
