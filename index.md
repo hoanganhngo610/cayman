@@ -4,6 +4,15 @@ title: "Online clustering: algorithms, evaluation, metrics, application and benc
 description: Tutorial presented at the 26<sup>th</sup> Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), May 16<sup>th</sup> - 19<sup>th</sup>, 2022, Chengdu, China.
 ---
 
+<style type="text/css">
+  .image-left {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+  }
+</style>
+
 # Abstract
 
 Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods.
@@ -11,6 +20,62 @@ Online clustering algorithms play a critical role in data science, especially wi
 This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods.
 
 This introduction will be then put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. We propose applications and settings for benchmarking, using real-world problems and datasets.
+
+# Presenters' bibliography
+
+<img src="presenter-pics/jacob-montiel.jpg" alt="drawing" width="220" style="border-radius:60%"/>{: .image-left } 
+
+**Jacob Montiel** is a research fellow at the University of Waikato in New Zealand and the core developer and maintainer of `River`. His research interests are in the field of machine learning for evolving data streams. Prior to focusing on research, Jacob led development work for onboard software for aircraft and engine’s prognostics at GE Aviation; working in the development of GE’s Brilliant Machines, part of the IoT and GE’s approach to Industrial Big Data.
+
+Website: [https://jacobmontiel.github.io/](https://jacobmontiel.github.io/)
+
+<br clear="left"/>
+
+<img src="presenter-pics/hoang-anh.ngo.jpg" alt="drawing" width="220" style="border-radius:60%"/>{: .image-left } 
+
+**Hoang-Anh Ngo** is currently a Research Assistant at Data, Intelligence and Graph (DIG), LCTI, Télécom Paris. He is also a core developer and maintainer of River, the machine learning library in Python for data streams. His research interests lies in the field of machine learning for evolving data stream, particularly in online clustering and classification algorithms. Previously, he joined the team of IT Specialists in COVID-19 task force, formed by the Ministry of Health of Vietnam as a Epidemiological Modelling Unit head.
+
+<br clear="left"/>
+
+<img src="presenter-pics/minh-huong.le-nguyen.jpg" alt="drawing" width="220" style="border-radius:60%"/>{: .image-left } 
+
+**Minh-Huong Le-Nguyen** is a third-year doctoral student at Telecom Paris, Institut Polytechnique de Paris in France. Her doctoral research focuses on the applications of machine learning on data streams to implement predictive maintenance in the railway industry. She received her Bachelor's degree in Computer Science at University Pierre and Marie Curie (France) in 2013, then she graduated from Telecom Paris (France) with a Master's degree in Data science in 2019.
+
+<br clear="left"/>
+
+<img src="presenter-pics/albert-bifet.jpg" alt="drawing" width="220" style="border-radius:60%"/>{: .image-left } 
+
+**Albert Bifet** is a Professor of AI and the DIrector of the Te Ipu o te Mahara AI Institute  at University of Waikato, and Professor of Big Data at Data, Intelligence and Graphs (DIG) LTCI, Télécom Paris. Problems he investigate are motivated by large scale data, the Internet of Things (IoT), and Big Data Science. He co-leads the open source projects MOA (Massive On-line Analysis), Apache SAMOA (Scalable Advanced Massive Online Analysis) and StreamDM.
+
+Website: [https://albertbifet.com/](https://albertbifet.com/)
+
+
+
+# Presenters' contact information
+
+### Jacob Montiel
+
+&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand
+
+&nbsp; Email: [jmontiel@waikato.ac.nz](mailto:jmontiel@waikato.ac.nz)
+
+### Hoang-Anh Ngo
+
+&nbsp; Department of Computer Sciences and Networks (INFRES), Télécom Paris, Institut Polytechnique de Paris, France
+
+&nbsp; Email: [hoang.ngo@telecom-paris.fr](mailto:hoang.ngo@telecom-paris.fr)
+
+### Minh-Huong Le Nguyen
+
+&nbsp; Department of Computer Sciences and Networks (INFRES), Télécom Paris, Institut Polytechnique de Paris, France
+
+&nbsp; Email: [minh.lenguyen@telecom-paris.fr](mailto:minh.lenguyen@telecom-paris.fr)
+
+### Albert Bifet
+
+&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand
+
+&nbsp; Email: [abifet@waikato.ac.nz](mailto:abifet@waikato.ac.nz)
 
 # Outline including a short summary of every section
 
@@ -67,6 +132,19 @@ The target audience of this tutorial include any researchers and practitioners w
 
 For all related materials, including presentation slides, demos, source code, related papers and any other piece of information, please visit [this page](./related-materials.html).
 
+# Citation
+
+If you find this tutorial useful for your research and you would like to cite it as a scientific source, please cite it as:
+
+```bibtex
+@booklet{jmontiel:2022:tutorial:river-clustering,
+  author = {Jacob Montiel and Hoang-Anh Ngo and Minh-Huong Le-Nguyen and Albert Bifet},
+  title = {Online clustering: algorithms, evaluation, metrics, application and benchmarking using River},
+  howpublished= {Tutorial presented at the 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), Chengdu, China},
+  year = {2022, May}
+}
+```
+
 # References
 
 1. Jacob Montiel, Max Halford, Saulo Martiello Mastelini, Geoffrey Bolmier, Raphael Sourty, Robin Vaysse, Adil Zouitine, Heitor Murilo Gomes, Jesse Read, Talel Abdessalem, and Albert Bifet. 2021. River: machine learning for streaming data in Python. *Journal of Machine Learning Research* 22 (April 2021), 1–8. [http://jmlr.org/papers/v22/20-1380.html](http://jmlr.org/papers/v22/20-1380.html)
@@ -102,116 +180,3 @@ For all related materials, including presentation slides, demos, source code, re
 1. Michael Hashler and Matthew Bolaños. 2016. Clustering Data Streams Based on Shared Density between Micro-Clusters. *IEEE Transactions on Knowledge and Data Engineering* 28, 6 (2016), 1449–1461. [https://doi.org/10.1109/TKDE.2016.2522412](https://doi.org/10.1109/TKDE.2016.2522412)
 
 1. Yixin Chen and Li Tu. 2007. Density-based clustering for real-time stream data. In *Proceedings of the 13th ACM SIGKKDD internaional conference on Knowledge discovery and data mining (KDD ’07)*. Association for Computing Machinery, New York, NY, USA, 133–142. [https://doi.org/10.1145/1281192.1281210](https://doi.org/10.1145/1281192.1281210)
-
-
-
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
