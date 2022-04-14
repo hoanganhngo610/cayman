@@ -151,7 +151,7 @@ If you find this tutorial useful for your research and you would like to cite it
 
 1. Matthias Carnein and Heike Trautmann. 2019. Optimizing Data Stream Representation: An Extensive Survey on Stream Clustering Algorithms. *Business & Information Systems Engineering* 61 (2019), 277–297. [https://doi.org/10.1007/s12599-019-00576-5](https://doi.org/10.1007/s12599-019-00576-5)
 
-1. Mohammed Ghesmoune, Mustapha Lebbah, and Hanene Azzag. 2016. State-of-the-art on clustering data streams. *Big Data Analytics* 1, 1 (2016), 13. [https://doi.org/10.1186/s41044-016-0011-3](https://doi.org/10.1186/s41044-016-0011-3)
+1. Mohammed Ghesmoune, Mustapha Lebbah, and Hanene Azzag. 2016. State-of-the-art on clustering data streams. *Big Data Analytics* 1, 1 (2016), 13.
 
 1. Amineh Amini, Teh Ying Wah, and Hadi Saboohi. 2014. On Density-Based Data Streams Clustering Algorithms: A Survey. *Journal of Computer Science and Technology* 29, 1 (Jan. 2014), 116–141. [https://doi.org/10.1007/s11390-013-1416-3](https://doi.org/10.1007/s11390-013-1416-3)
 
@@ -167,9 +167,9 @@ If you find this tutorial useful for your research and you would like to cite it
 
 1. Jacob Montiel, Jesse Read, Albert Bifet, and Talel Abdessalem. 2018. Scikit-Multiflow: A Multi-output Streaming Framework. *Journal of Machine Learning Research* 19, 72 (2018), 1–5. [http://jmlr.org/papers/v19/18-251.html](http://jmlr.org/papers/v19/18-251.html)
 
-1. Stratos Mansalis, Eirini Ntoutsi, Nikos Pelekis, and Yannis Theodoridis. 2018. An evaluation of data stream clustering algorithm. *Statistical Analysis and Data Mining: The ASA Data Science Journal* 11 (2018), 167–187. [https://doi.org/10.1002/sam.11380](https://doi.org/10.1002/sam.11380)
+1. Stratos Mansalis, Eirini Ntoutsi, Nikos Pelekis, and Yannis Theodoridis. 2018. An evaluation of data stream clustering algorithm. *Statistical Analysis and Data Mining: The ASA Data Science Journal* 11 (2018), 167–187.
 
-1. Charu C. Aggarwal, Jiawei Han, Jianyong Wang, and Phillip S. Yu. 2003. A Framework for Clustering Evolving Data Streams. *In Proceedings of the 29th International Conference on Very Large Data Bases - Volume 29* (Berlin, Germany) *(VLDB ’03)*. VLDB Endowment, Berlin, Germany, 81–92. [https://doi.org/10.5555/1315451.1315460](https://doi.org/10.5555/1315451.1315460)
+1. Charu C. Aggarwal, Jiawei Han, Jianyong Wang, and Phillip S. Yu. 2003. A Framework for Clustering Evolving Data Streams. *In Proceedings of the 29th International Conference on Very Large Data Bases - Volume 29* (Berlin, Germany) *(VLDB ’03)*. VLDB Endowment, Berlin, Germany, 81–92.
 
 1. Feng Cao, Martin Estert, Weining Qian, and Aoying Zhou. 2006. Density-Based Clustering over an Evolving Data Stream with Noise. In *Proceedings of the 2006 SIAM International Conference on Data Mining (SDM)*. Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA, USA, 328–339. [https://doi.org/10.1137/1.9781611972764.29](https://doi.org/10.1137/1.9781611972764.29)
 
