@@ -153,7 +153,7 @@ If you find this tutorial useful for your research and you would like to cite it
 
 1. Mohammed Ghesmoune, Mustapha Lebbah, and Hanene Azzag. 2016. State-of-the-art on clustering data streams. *Big Data Analytics* 1, 1 (2016), 13.
 
-1. Amineh Amini, Teh Ying Wah, and Hadi Saboohi. 2014. On Density-Based Data Streams Clustering Algorithms: A Survey. *Journal of Computer Science and Technology* 29, 1 (Jan. 2014), 116–141. [https://doi.org/10.1007/s11390-013-1416-3](https://doi.org/10.1007/s11390-013-1416-3)
+1. Amineh Amini, Teh Ying Wah, and Hadi Saboohi. 2014. On Density-Based Data Streams Clustering Algorithms: A Survey. *Journal of Computer Science and Technology* 29, 1 (Jan. 2014), 116–141.
 
 1. Ali Javed, Byung Suk Lee, and Donna M. Rizzo. 2020. A benchmark study on time series clustering. *Machine Learning with Applications* 1 (Sept. 2020), 100001. [https://doi.org/10.1016/j.mlwa.2020.100001](https://doi.org/10.1016/j.mlwa.2020.100001)
 
