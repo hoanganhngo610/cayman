@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Online clustering: algorithms, evaluation, metrics, application and benchmarking"
-description: Tutorial presented at the 28<sup>th</sup> ACM SIGKDD Conference  on Knowledge Discovery and Data Mining, August 14<sup>th</sup> - 18<sup>th</sup>, 2022, Washington DC Convention Center.
+description: Tutorial presented at the 28<sup>th</sup> ACM SIGKDD Conference on Knowledge Discovery and Data Mining, August 14<sup>th</sup> - 18<sup>th</sup>, 2022, Washington DC Convention Center.
 ---
 
 <style type="text/css">
@@ -15,11 +15,9 @@ description: Tutorial presented at the 28<sup>th</sup> ACM SIGKDD Conference  on
 
 # Abstract
 
-Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods.
+Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods. This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods. During this tutorial, state-of-the-art algorithms and the associated core research threads will be presented by identifying different categories based on distance, density grids and hidden statistical models. Clustering validity indices, an important part of the clustering process which are usually neglected or replaced with classification metrics, resulting in misleading interpretation of final results, will also be deeply investigated.
 
-This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods.
-
-This introduction will be then put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. We propose applications and settings for benchmarking, using real-world problems and datasets.
+Then, this introduction will be put into the context with River, a go-to Python library merged between `Creme` and `scikit-multiflow`. It is also the first open-source project to include an online clustering module that can facilitate reproducibility and allow direct further improvements. From this, we propose methods of clustering configuration, applications and settings for benchmarking, using real-world problems and datasets.
 
 # Presenters' bibliography
 
