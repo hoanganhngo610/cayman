@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Online clustering: algorithms, evaluation, metrics, application and benchmarking using River"
-description: Tutorial presented at the 26<sup>th</sup> Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), May 16<sup>th</sup> - 19<sup>th</sup>, 2022, Chengdu, China.
+title: "Online clustering: algorithms, evaluation, metrics, application and benchmarking"
+description: Tutorial presented at the 28<sup>th</sup> ACM SIGKDD Conference  on Knowledge Discovery and Data Mining, August 14<sup>th</sup> - 18<sup>th</sup>, 2022, Washington DC Convention Center.
 ---
 
 <style type="text/css">
