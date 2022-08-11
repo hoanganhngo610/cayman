@@ -58,4 +58,6 @@ TBA
 
 # Presentation slides and videos
 
-The complete slide deck of Part 1 and 2 of this tutorial can be found ![here](https://bit.ly/KDD2022-Tutorial-OnlineClustering-Slides)
+The complete slide deck of Part 1 and 2 of the tutorial, in PDF, can be found [here](https://bit.ly/KDD2022-Tutorial-OnlineClustering-Slides).
+
+The complete video of the on-site tutorial will be made available by the organizers, tentatively when the conference is officially over.
