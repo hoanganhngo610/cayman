@@ -53,25 +53,25 @@ Website: [https://albertbifet.com/](https://albertbifet.com/)
 
 ### Jacob Montiel
 
-&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand
+&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand and LCTI, Télécom Paris, Institut Polytechnique de Paris, France
 
 &nbsp; Email: [jmontiel@waikato.ac.nz](mailto:jmontiel@waikato.ac.nz)
 
 ### Hoang-Anh Ngo
 
-&nbsp; Department of Computer Sciences and Networks (INFRES), Télécom Paris, Institut Polytechnique de Paris, France
+&nbsp; LCTI, Télécom Paris, Institut Polytechnique de Paris, France
 
 &nbsp; Email: [hoang.ngo@telecom-paris.fr](mailto:hoang.ngo@telecom-paris.fr)
 
 ### Minh-Huong Le Nguyen
 
-&nbsp; Department of Computer Sciences and Networks (INFRES), Télécom Paris, Institut Polytechnique de Paris, France
+&nbsp; LCTI, Télécom Paris, Institut Polytechnique de Paris, France
 
 &nbsp; Email: [minh.lenguyen@telecom-paris.fr](mailto:minh.lenguyen@telecom-paris.fr)
 
 ### Albert Bifet
 
-&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand
+&nbsp; Artificial Intelligence Institute, University of Waikato, Hamilton, New Zealand and LCTI, Télécom Paris, Institut Polytechnique de Paris, France
 
 &nbsp; Email: [abifet@waikato.ac.nz](mailto:abifet@waikato.ac.nz)
 
