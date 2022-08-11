@@ -10,7 +10,7 @@ description: Including presentation slides, demos, source code, related papers, 
 
 The clustering module of `River` is currently the most complete among all open-source projects, with not only the highest number of already-available clustering algorithms, but also with the large number of internal and external metrics that supports online learning contexts.
 
-The currentl available clustering algorithms include
+The currently available clustering algorithms include
 
 * Incremental KMeans
 * CluStream
@@ -54,7 +54,9 @@ and
 
 # Source code and demos
 
-TBA
+The source code for the demo of River can be found [here](https://github.com/hoanganhngo610/river-clustering-demo-2022).
+
+The benchmarking of River clustering algorithms are conducted locally, and can be executed using [this repository](https://github.com/hoanganhngo610/river-clustering-benchmark).
 
 # Presentation slides and videos
 
