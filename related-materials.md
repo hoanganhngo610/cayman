@@ -19,6 +19,12 @@ The currently available clustering algorithms include
 * STREAMKMeans
 * EvoStream
 
+Additionally, with **20** internal validation metrics and **18** external validation metrics, River is currently the package with the highest number of metrics offered for data stream continuous or incremental validation.
+
+* **Internal validation metrics**: Cohesion, SSB, SSW, Separation, Silhouette, Ball-Hall, CH, Hartigan, WB, Xie-Beni, Xu, (Root) Mean Squared Standard Deviation, R-Squared, I Index, Davies-Bouldin, Partition Separation, Dunn’s indices 43 and 53, SD Validation Index, and Bayesian Information Criterion.
+
+* **External validation metrics**: Completeness, Homogeneity, VBeta, (Adjusted, Expected, Normalized) Mutual Information, Q0 and Q2, Fowlkes-Mallows, Markedness, Informedness, Matthews Correlation Coefficient, (Adjusted) Rand Index, Purity, Prevalence Threshold, and Sorensen-Dice index.
+
 The viewers may also be interested to visit the repositories of two packages that are merged to become `River`, including `scikit-multiflow` and `creme`:
 
 * `scikit-multiflow`: [https://scikit-multiflow.github.io/](https://scikit-multiflow.github.io/)
