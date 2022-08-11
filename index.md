@@ -13,6 +13,14 @@ description: Tutorial presented at the 28<sup>th</sup> ACM SIGKDD Conference on 
   }
 </style>
 
+# Practical information
+
+The agenda of the tutorial will be as follows:
+
+* **Place**: Room 203A, Washington DC Convention Center
+* **Time**: Sunday, August 14th 2022, 09:00 AM - 12:00 AM (GMT-5)
+* **Track**: Lecture-style tutorials
+
 # Abstract
 
 Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods. This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods. During this tutorial, state-of-the-art algorithms and the associated core research threads will be presented by identifying different categories based on distance, density grids and hidden statistical models. Clustering validity indices, an important part of the clustering process which are usually neglected or replaced with classification metrics, resulting in misleading interpretation of final results, will also be deeply investigated.
@@ -135,11 +143,18 @@ For all related materials, including presentation slides, demos, source code, re
 If you find this tutorial useful for your research and you would like to cite it as a scientific source, please cite it as:
 
 ```bibtex
-@booklet{jmontiel:2022:tutorial:river-clustering,
-  author = {Jacob Montiel and Hoang-Anh Ngo and Minh-Huong Le-Nguyen and Albert Bifet},
-  title = {Online clustering: algorithms, evaluation, metrics, application and benchmarking using River},
-  howpublished= {Tutorial presented at the 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD), Chengdu, China},
-  year = {2022, May}
+@inproceedings{10.1145/3534678.3542600,
+  author = {Montiel, Jacob and Ngo, Hoang-Anh and Le-Nguyen, Minh-Huong and Bifet, Albert},
+  title = {Online Clustering: Algorithms, Evaluation, Metrics, Application and Benchmarking using River},
+  year = {2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3534678.3542600},
+  doi = {10.1145/3534678.3542600},
+  booktitle = {Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  numpages = {2},
+  location = {Washington, D.C., USA},
+  series = {KDD '22},
 }
 ```
 
