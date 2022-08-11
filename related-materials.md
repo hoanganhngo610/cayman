@@ -58,4 +58,4 @@ TBA
 
 # Presentation slides and videos
 
-TBA
+The complete slide deck of Part 1 and 2 of this tutorial can be found ![here](https://bit.ly/KDD2022-Tutorial-OnlineClustering-Slides)
