@@ -111,6 +111,39 @@ If you'd like to preview the theme locally (for example, in the process of propo
 4. Run `bundle exec jekyll serve` to start the preview server
 5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
+### Note for macOS user with ARM architecture CPUs (M1 and later)
+
+For users with ARM achitecture CPUs on Macbooks running macOS Big Sur and later, please note that `script/bootstrap` will not work. It will return an error similar to the following
+
+```
+You don't have write permissions for the /Library/Ruby Gems/2.x.y directory. 
+## x,y are arbitrary numbers that represent the version of Ruby
+```
+
+, simply because macOS would not let you change anything with the default Ruby version that come pre-installed with your Macbook. 
+
+As such, you should proceed to install the latest version of Ruby with `Homebrew`, using the tutorial [here](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/). This will allow you to have a version of Ruby later than 3.0.0.
+
+However, this should not be enough to work with Github pages. The latest versions of Ruby does not have `webrick` installed included by default. The following [issue from GitHub](https://github.com/github/pages-gem/issues/752) and the following [thread from StackOverFlow](https://stackoverflow.com/questions/69890412/bundler-failed-to-load-command-jekyll) also mentioned a similar phemomenon. This issue can simply be fixed by running the command 
+
+```terminal
+bundle add webrick
+```
+
+which include the following command into `Gemfile`:
+
+```gemfile
+gem "webrick", "~> 1.7"
+```
+
+Then, we can repeat the command 
+
+```
+bundle exec jekyll serve
+```
+
+and everything should be complete.
+
 ### Running tests
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
