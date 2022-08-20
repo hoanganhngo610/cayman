@@ -1,3 +1,9 @@
+# Introduction
+
+This repository serves as the official website for the tutorial "Online Clustering: Algorithms, Evaluation, Metrics, Applications and Benchmarking" at [this site](https://hoanganhngo610.github.io/river-clustering.kdd.2022/).
+
+This website is generated using Github Pages, using The Cayman theme.
+
 # The Cayman theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
