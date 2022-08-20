@@ -144,17 +144,21 @@ If you find this tutorial useful for your research and you would like to cite it
 
 ```bibtex
 @inproceedings{10.1145/3534678.3542600,
-  author = {Montiel, Jacob and Ngo, Hoang-Anh and Le-Nguyen, Minh-Huong and Bifet, Albert},
-  title = {Online Clustering: Algorithms, Evaluation, Metrics, Application and Benchmarking using River},
-  year = {2022},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3534678.3542600},
-  doi = {10.1145/3534678.3542600},
-  booktitle = {Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
-  numpages = {2},
-  location = {Washington, D.C., USA},
-  series = {KDD '22},
+author = {Montiel, Jacob and Ngo, Hoang-Anh and Le-Nguyen, Minh-Huong and Bifet, Albert},
+title = {Online Clustering: Algorithms, Evaluation, Metrics, Applications and Benchmarking},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3534678.3542600},
+doi = {10.1145/3534678.3542600},
+abstract = {Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods. This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods. During this tutorial, state-of-the-art algorithms and the associated core research threads will be presented by identifying different categories based on distance, density grids and hidden statistical models. Clustering validity indices, an important part of the clustering process which are usually neglected or replaced with classification metrics, resulting in misleading interpretation of final results, will also be deeply investigated.Then, this introduction will be put into the context with River, a go-to Python library merged between Creme and scikit-multiflow. It is also the first open-source project to include an online clustering module that can facilitate reproducibility and allow direct further improvements. From this, we propose methods of clustering configuration, applications and settings for benchmarking, using real-world problems and datasets.},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {4808–4809},
+numpages = {2},
+keywords = {online clustering, data streams, benchmarking, stream clustering, decision support, stream learning},
+location = {Washington DC, USA},
+series = {KDD '22}
 }
 ```
 
