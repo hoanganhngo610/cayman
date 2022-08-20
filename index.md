@@ -21,6 +21,8 @@ The agenda of the tutorial will be as follows:
 * **Time**: Sunday, August 14th 2022, 09:00 AM - 12:00 AM (GMT-5)
 * **Track**: Lecture-style tutorials
 
+The full information of this tutorial can be found within the KDD'22 Proceeding, available [here](https://dl.acm.org/doi/10.1145/3534678.3542600). Citation can be exported directly from this site, or can also be found [below](#citation).
+
 # Abstract
 
 Online clustering algorithms play a critical role in data science, especially with the advantages regarding time, memory usage and complexity, while maintaining a high performance compared to traditional clustering methods. This tutorial serves, first, as a survey on online machine learning and, in particular, data stream clustering methods. During this tutorial, state-of-the-art algorithms and the associated core research threads will be presented by identifying different categories based on distance, density grids and hidden statistical models. Clustering validity indices, an important part of the clustering process which are usually neglected or replaced with classification metrics, resulting in misleading interpretation of final results, will also be deeply investigated.
