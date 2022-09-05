@@ -17,7 +17,7 @@ The currently available clustering algorithms include
 * DenStream
 * DBSTREAM
 * STREAMKMeans
-* EvoStream
+* evoStream
 
 Additionally, with **20** internal validation metrics and **18** external validation metrics, River is currently the package with the highest number of metrics offered for data stream continuous or incremental validation.
 
@@ -70,4 +70,4 @@ The complete slide deck of Part 1 and 2 of the tutorial, in PDF, can be found [h
 
 The complete video of the on-site tutorial will be made available by the organizers, tentatively when the conference is officially over.
 
-In September 2022, Hoang-Anh Ngo alsoo gave an invited talk in a seminar organized at LIAAD, INSEC TEC, University of Porto related to `River` and the clustering module. The slides of the talk can be found [here](https://drive.google.com/file/d/1RWXdTxGzW6CkvY3TmBZuO8F8rIItUR_K/view?usp=sharing), or [within the GitHub repository for the demo of `River`](https://github.com/hoanganhngo610/river-clustering-demo-2022/tree/master/slides/INESC%20TEC%20-%20Hoang-Anh%20Ngo%20-%20September%202022).
+In September 2022, Hoang-Anh Ngo also gave an invited talk in a seminar organized at LIAAD, INSEC TEC, University of Porto related to `River` and the clustering module. The slides of the talk can be found [here](https://drive.google.com/file/d/1RWXdTxGzW6CkvY3TmBZuO8F8rIItUR_K/view?usp=sharing), or [within the GitHub repository for the demo of `River`](https://github.com/hoanganhngo610/river-clustering-demo-2022/tree/master/slides/INESC%20TEC%20-%20Hoang-Anh%20Ngo%20-%20September%202022).
